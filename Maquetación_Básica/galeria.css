@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;   
+}
+
+.contenedor_principal img{
+    margin-top: 3%;
+    width: 22%;
+    height: auto;
+    border: 2px solid red;
+}
+
+body{
+    background-color: beige;
+}
+
+
+
+
+
+/* .contenedor_secundario{
+    border: solid red;
+    height: auto;
+    width: 20%;
+}
+
+.contenedor_secundario img{
+    height: auto;
+    width: 20%; */
+/* } */
