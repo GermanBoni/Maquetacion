@@ -5,6 +5,35 @@
     box-sizing: border-box;
 }
 
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 100px;
+    background-color: rgb(100, 156, 62);
+}
+
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* porque para cambiar el color y la lera del menu, tengo que incluirlo en la clase menu?? */
+
+
 .contenedor_principal{
     display: flex;
     flex-direction: row;
@@ -13,28 +42,17 @@
     margin: 2%;   
 }
 
-.contenedor_principal img{
+.contenedor_img{
     margin-top: 3%;
     width: 22%;
-    height: auto;
-    border: 2px solid red;
+    height: 300px;
 }
 
 body{
     background-color: beige;
 }
 
+/* cuando hay que poner el display flex?? */
 
 
 
-
-/* .contenedor_secundario{
-    border: solid red;
-    height: auto;
-    width: 20%;
-}
-
-.contenedor_secundario img{
-    height: auto;
-    width: 20%; */
-/* } */
