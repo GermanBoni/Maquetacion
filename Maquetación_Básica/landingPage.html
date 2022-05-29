@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iberia</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <img class="imagen" src="/Maquetación_Básica/Imagenes/iberia-a330.jpg" alt="Error">
+            <img class="imagen" src="/Maquetación_Básica/Imagenes/iberia_logo.jpg" alt="Error">
+            <p class="historia" >Somos la primera aerolínea de España y nuestra vocación es ser siempre la mejor opción a la hora de reservar las vacaciones o viajes de trabajo. Con una flota de 142 aviones, ofrecemos una amplia oferta de destinos, 135 en Europa, América, África, Oriente Medio y Asia, y unos 270 adicionales en colaboración con nuestros socios. En esa red global, juegan un papel especial las conexiones entre Europa y América Latina, donde estamos orgullosos de ser la aerolínea líder y trabajamos cada día por seguir siendo merecedores de ese liderazgo. Somos Iberia. ¿Vienes a bordo?</p>
+        </header>
+
+        <hr class="linea">
+
+        <article class="ofertas">
+            <a class="oferta" href="">Viajes al 50%</a>
+            <a class="oferta" href="">Viaje a Sevilla</a>
+            <a class="oferta" href="">Madrid 30%</a>
+            <a class="oferta" href="">Viaje a Canarias</a>
+
+            <!-- <section class="oferta">Viajes al 50%</section>
+            <section class="oferta">Viaje a Sevilla</section>
+            <section class="oferta">Madrid 30%</section>
+            <section class="oferta">Viaje a Canarias</section> -->
+        </article>
+
+        <article class="formulario">
+
+
+            <section class="cabecera_formulario">
+                <h1 class="titulo">APP IBERIA</h1>
+                <h3 class="subtitulo">Vuela con tranquilidad</h3>
+            </section>
+
+            <hr class="linea">
+
+            <section class="introduccion_informacion">
+                <input class="input" id="nombre" type="text" placeholder="Nombre">
+                <input class="input" id="correo" type="text" placeholder="Correo elecronico">
+                <input class="input" id="Origen" type="text" placeholder="Origen">
+                <input class="input" id="destino" type="text" placeholder="Destino">
+                <input class="input" id="fecha" type="text" placeholder="Fecha">
+            </section>
+
+            <section class="botones">
+                <button class="boton" type= "reset" oneclick="informacion()">Solicitar informacion</button>
+                <button class="boton" type= "reset" oneclick="mostrar()" >Filtrar</button>
+            </section>
+
+            <!-- el type para que sirve??? -->
+
+
+        </article>
+
+        <article class="resultado" id="tabla_inferior">
+            <table id="lista">
+
+            </table>
+
+        </article>
+
+
+    </main>
+
+    <script src="landingPage.js"></script>
+    
+</body>
+</html>

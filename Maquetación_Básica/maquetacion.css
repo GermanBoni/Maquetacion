@@ -9,7 +9,7 @@
     border-radius: 20px;
     margin: 1%;
     height: 100%;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -49,7 +49,7 @@
     justify-content: space-between;
 }
 
-/* porque padding de 2px??bloque arriba?el padding esde el inicio del borde?? */
+
 
 .header2{
     border: 5px solid rgb(188, 241, 156);
@@ -133,12 +133,7 @@
 }
 
 
-/* //lo que se pone en el padre unicamenta afecta los hijo en flex o en todo? como por ejemplo margin. */
-/* with con vw??
-porque los margenes no me coinciden? */
-/* 30vw=30% en base auna pantalla */
 
-/* display flex es necesario ponerlo en los hijos??
-si pongo en el padre un padding, hace falta poner un margin en el hijo?? */
-/* si pongo una altura del 20% y luego pongo un margen de 10 px o de un 2%, el 20% de la altura, se añade el margin? */
-/* como hago para que el margen de la izquierda hacerlo un poco mas grande, si ya he puesto un margen general a toda la clase? Ejemplo footer2 */
+
+
+

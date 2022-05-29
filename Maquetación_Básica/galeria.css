@@ -31,9 +31,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* porque para cambiar el color y la lera del menu, tengo que incluirlo en la clase menu?? */
-
-
 .contenedor_principal{
     display: flex;
     flex-direction: row;
@@ -52,7 +49,7 @@ body{
     background-color: beige;
 }
 
-/* cuando hay que poner el display flex?? */
+
 
 
 

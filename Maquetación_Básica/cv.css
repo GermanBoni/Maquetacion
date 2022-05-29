@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_general{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+    width: 70vw;
+    margin-left: 15%;
+}
+
+.contenedor_izquierdo{
+    border: 2px solid red;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 154, 154);
+    align-items: center;   
+}
+
+.imagen{
+    height: 325px;
+    width: 50%;
+    /* margin-top: 10%;
+    margin-left: 25%; */
+    /* align-self: center; */
+}
+
+.nacimiento{
+    /* display: flex;
+    align-items: flex-start; */
+    /* margin-left: 25%;
+    margin-top: 8%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.aside1{
+    /* margin-left: 25%; */
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto{
+    /* margin-bottom: 3%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telefono{
+    /* margin-bottom: 3%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.correo{
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.residencia{
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aside2{
+    /* margin-left: 25%;
+    margin-top: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mas_informacion{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carnet{
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.coche{
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.tiempo{
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.contenedor_derecho{
+    border: 2px solid red;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+.titulo{
+    border: 2px solid red;
+    /* margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%; */
+    /* margin-bottom: 20%; NO ME HACE CASO!!! */
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    /* align-content: center */
+}
+
+.nombre{
+    margin-bottom: 3%;
+    display: flex;
+    align-self: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 154, 154);
+
+}
+
+.trabajo{
+    margin-bottom: 3%;
+    display: flex;
+    align-self: center;
+    font-size: x-large;
+    color: rgb(173, 170, 170);
+}
+
+.linea1{
+    color: black;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+.experiencia_laboral{
+    border: 2px solid red;
+}
+
+
+
