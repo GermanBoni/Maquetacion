@@ -29,7 +29,7 @@
             <section class="oferta">Viaje a Canarias</section> -->
         </article>
 
-        <article class="formulario">
+        <form class="formulario">
 
 
             <section class="cabecera_formulario">
@@ -42,20 +42,20 @@
             <section class="introduccion_informacion">
                 <input class="input" id="nombre" type="text" placeholder="Nombre">
                 <input class="input" id="correo" type="text" placeholder="Correo elecronico">
-                <input class="input" id="Origen" type="text" placeholder="Origen">
+                <input class="input" id="origen" type="text" placeholder="Origen">
                 <input class="input" id="destino" type="text" placeholder="Destino">
                 <input class="input" id="fecha" type="text" placeholder="Fecha">
             </section>
 
-            <section class="botones">
-                <button class="boton" type= "reset" oneclick="informacion()">Solicitar informacion</button>
-                <button class="boton" type= "reset" oneclick="mostrar()" >Filtrar</button>
+            <section class="botones" >
+                <button class="boton" type= "reset" onclick="informacion()" >Solicitar informacion</button>
+                <button class="boton" type= "reset" onclick="mostrar()" >Filtrar</button>
             </section>
 
             <!-- el type para que sirve??? -->
 
 
-        </article>
+        </form>
 
         <article class="resultado" id="tabla_inferior">
             <table id="lista">

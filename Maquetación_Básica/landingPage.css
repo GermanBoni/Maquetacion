@@ -111,6 +111,22 @@
 .resultado{
     margin-top: 3.5%;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
+#lista{
+    gap: 4px;
+    width: 40%;
+    background-color: red;
+    color: white;
+
+}
+
+.fila2{
+    border: 1px solid black;
+}
+
+.fila1{
+    color: black;
+}

@@ -9,20 +9,16 @@ let fecha= document.getElementById("fecha")
 
 let arrayDatos= []
 
-function informacion(){
 
-    console.log("hola")
-    // let nombre= document.getElementById("nombre")
-    // let correo= document.getElementById("correo")
-    // let origen= document.getElementById("origen")
-    // let destino= document.getElementById("destino")
-    // let fecha= document.getElementById("fecha")
+function informacion(){
 
     let _nombre= nombre.value;
     let _correo= correo.value;
     let _origen= origen.value;
     let _destino= destino.value; 
     let _fecha= fecha.value;
+
+    console.log(_nombre);
 
     let info= { Nombre: _nombre,
                 Correo: _correo,
@@ -38,41 +34,50 @@ let arrayDatosFiltrados=[]
 
 // esta bien la funcion mostrar??
 
-function mostrar(){
+// function mostrar(){
 
-    for (let i=0; i<arrayDatos.length; i++){
+//     for (let i=0; i<arrayDatos.length; i++){
         
-        if (arrayDatos[i].Destino.toLowerCase() =="canarias" || "mallorca" || "galicia"){
-            arrayDatosFiltrados.push(arrayDatos[i])
-        }
-    }
-    console.log(arrayDatosFiltrados);
-}
+//         if (arrayDatos[i].Destino.toLowerCase() =="canarias" || 
+//         arrayDatos[i].Destino.toLowerCase() =="mallorca" || 
+//         arrayDatos[i].Destino.toLowerCase() =="galicia"){
 
-// porque me da error??
+//             arrayDatosFiltrados.push(arrayDatos[i])
+//         }
+//     }
+//     console.log(arrayDatosFiltrados);
+// }
+
+// // porque me da error??
 
 function mostrar(){
     let lista= document.getElementById("lista")
 
+    lista.innerHTML=   `<tr>
+                            <th class="fila1">Nombre</th>
+                            <th class="fila1">Correo</th>
+                            <th class="fila1">Origen</th>
+                            <th class="fila1">Destino</th>
+                            <th class="fila1">Fecha</th>
+                        </tr>`
+
     for (let i=0; i<arrayDatos.length; i++){
         
-        if (arrayDatos[i].Destino.toLowerCase() =="canarias" || "mallorca" || "galicia"){
+        if (arrayDatos[i].Destino.toLowerCase() =="canarias" ||
+        arrayDatos[i].Destino.toLowerCase() == "mallorca" || 
+        arrayDatos[i].Destino.toLowerCase() =="galicia"){
+
+            // el simbolo del dolar es para concatenar
+            //realmente los tr son las filas y los th son las columnas
                 
-            lista.innerHTML+=   "<tr>
-                                    <th>Nombre</th>
-                                    <th>Correo</th>
-                                    <th>Origen</th>
-                                    <th>Destino</th>
-                                    <th>Fecha</th>
-                                </tr>
-                                <tr>
-                                    <th>arrayDatos[i].Nombre</th>
-                                    <th>arrayDatos[i].Correo</th>
-                                    <th>arrayDatos[i].Origen</th>
-                                    <th>arrayDatos[i].Destino</th>
-                                    <th>arrayDatos[i].Fecha</th>
+            lista.innerHTML+=  `<tr>
+                                    <th class="fila2">${arrayDatos[i].Nombre}</th>
+                                    <th class="fila2">${arrayDatos[i].Correo}</th>
+                                    <th class="fila2">${arrayDatos[i].Origen}</th>
+                                    <th class="fila2">${arrayDatos[i].Destino}</th>
+                                    <th class="fila2">${arrayDatos[i].Fecha}</th>
                             
-                                </tr>"
+                                </tr>`
         }
     }
 }
