@@ -1,0 +1,161 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_principal{
+    width: 100vw;    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado{
+    /* border: 2px solid red; */
+    width: 100%;   
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; como hacer para que no se me escondan cosas debajo de esto?? */
+}
+
+.titulo{
+    /* border: 2px solid red; */
+    width: 10%;
+    margin-left: 45%;  
+    color: blue; 
+}
+
+.menu{
+    /* border: 2px solid red; */
+    margin-right: 5%;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.enlace{
+    text-decoration: none;
+    transition: transform 1s linear
+}
+
+.enlace:hover{
+    transform: scale(1.25);
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px; 
+    gap: 300px; 
+}
+
+.nombre{
+    font-size: xx-large;  
+}
+
+.formacion{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.formacion_2{
+    color: blue;
+}
+
+.logros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion{
+    /* border: 2px solid red; */
+    margin-top: 150px; 
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.lineas_des{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.lineas_des:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.25);
+}
+
+.tecnologias{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea_tec{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    transition: all 1s linear
+}
+
+.linea_tec:hover{
+    color: blue;
+    transform: translateX(50px) scale(1.25);
+}
+
+.proyectos{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: blue;
+    gap: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.datos{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+}
+
+.input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.boton{
+    color: white;
+    background-color: blue;
+}
+
+.ul{
+    /* width: 100vw; */
+    text-align: center;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
