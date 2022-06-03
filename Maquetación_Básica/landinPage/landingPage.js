@@ -32,24 +32,6 @@ function informacion(){
 
 let arrayDatosFiltrados=[]
 
-// esta bien la funcion mostrar??
-
-// function mostrar(){
-
-//     for (let i=0; i<arrayDatos.length; i++){
-        
-//         if (arrayDatos[i].Destino.toLowerCase() =="canarias" || 
-//         arrayDatos[i].Destino.toLowerCase() =="mallorca" || 
-//         arrayDatos[i].Destino.toLowerCase() =="galicia"){
-
-//             arrayDatosFiltrados.push(arrayDatos[i])
-//         }
-//     }
-//     console.log(arrayDatosFiltrados);
-// }
-
-// // porque me da error??
-
 function mostrar(){
     let lista= document.getElementById("lista")
 

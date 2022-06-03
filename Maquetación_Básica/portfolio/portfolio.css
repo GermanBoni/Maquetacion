@@ -113,7 +113,7 @@
 
 .linea_tec:hover{
     color: blue;
-    transform: translateX(50px) scale(1.25);
+    transform: translateX(50px) scale(2);
 }
 
 .proyectos{
