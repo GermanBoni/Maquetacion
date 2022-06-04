@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_general{
+    /* border: 2px red solid; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedores{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 100vw;
+}
+
+.footer{
+    border: 2px solid red;
+    height: 25vh;
+    width: 100vw;
+}
+
+.contenedor_izquierdo{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0.75%;
+}
+
+.contenedor_imagen{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.imagen{
+    height: 100%;
+    width: 30%;
+}
+/* nose cual seria la forma correcta de hacer lo de la imagen!! */
+
+.contenedor_derecho{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.75%;
+}
+
+.contenedor_principal{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_superior{
+    border: 2px solid gray;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono_instagram{
+    height: 40%;
+    width: 60%;
+}
+
+.formulario{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;
+}
+
+.usuario{
+    margin-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 25%;
+    width: 70%;
+}
+
+.contraseña{
+    margin-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 25%;
+    width: 70%;
+}
+/* porque no se me pone el mismo tamaño que el input de usuario??? */
+/* tengo que contar el tanto por cient de los contenedores para que cuadre el 100%???? */
+
+.boton{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 25%;
+    width: 70%;
+    margin-bottom: 10%;
+    background-color: rgb(205, 229, 252);
+}
+
+/* haria falta poner este margen bottom para que cuadre con el 100%???? */
+
+.linea{
+    margin-top: 5%;
+}
+
+.facebook{
+    /* border: 2px solid red; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3%;
+}
+
+.contraseña_olvidada{
+    /* border: 2px solid red; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.parrafo{
+    padding-top: 4%;
+}
+
+.registrate{
+    border: 2px solid gray;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 5%;
+}
+
+/* si digo que tiene un 10% de altura respecto a su contenedor padre, si aplico un margen del 5%, se le suma ese 5 a la altura??? */
+
+.enlace_registrar{
+    text-decoration: none;
+    color: rgb(67, 164, 255);
+}
+
+.descarga{
+    /* border: 2px solid gray; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos{
+    /* border: 2px solid gray; */
+    height: 10%; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.icono1{
+    width: 45%;
+    height: 80%;
+}
+
+.icono2{
+    width: 45%;
+    height: 80%;
+    
+}
+
+.footer{
+    padding-top: 2%;
+}
+
+.footer1{
+    border: 2px solid gray;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    gap: 1%;
+}

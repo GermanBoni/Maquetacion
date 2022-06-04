@@ -1,0 +1,82 @@
+
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4]1fr [y5]1fr [y6]1fr [y7]1fr;
+    /* 8 filas??? */
+}
+
+.header{
+    display: grid;
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contenedorAzul{
+    display: grid;
+    grid-column: xo / x3;
+    grid-row: y1 / y7;
+    color: white;
+    background-color: blue;
+}
+
+/* porque no me aparece el contenedor azul???? */
+
+.contenedorVerde{
+    display: grid;
+    grid-column: x3 / x4;
+    grid-row: y1 / y7;
+    color: white;
+    background-color: rgb(50, 248, 182);
+}
+
+.contenedorMorado{
+    display: grid;
+    grid-column: x0 / x4;
+    grid-row: y7 / y8;
+    color: white;
+    background-color: blueviolet;
+}
+
+.menus{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* como centrar el texto sin usar align items y justify content??? */
+/* tanto en menu y menus lo he hecho a ojo! */
+/* sino coinciden con las lineas nombradas lo tengo que hacer a ojo?? */
+
+.menu{
+    background-color: rgb(50, 248, 182);
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer{
+    grid-column: x0 / x2;
+    grid-row: y7 / y8;
+    color: white;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.contacto{
+    grid-column: x2 / x4;
+    grid-row: y7 / y8;
+    color: white;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+/* porque no me hacen caso ni el footer ni contacto???? */
+
