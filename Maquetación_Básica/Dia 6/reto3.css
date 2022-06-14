@@ -11,17 +11,17 @@
     grid-template-rows: [y0]1fr [y1]4fr [y2]1fr ;
     height: 100vh;
     width: 100vw;
-    /* 8 filas??? */
+    
 }
 
 .header{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x2;
     grid-row: y0 / y1;
     color: white;
     background-color: black;
-    text-align: center;
-    padding: 10px;
 }
 
 .contenedorAzul{
@@ -37,34 +37,31 @@
 }
 
 .contenido{
-    display: grid;
     grid-column: x0/x2;
     grid-row: y0/y1;
     color: white;
     background-color: blue;
     border: white 2px solid;
+    padding: 5px;
 }
 
-.texto1{
-    display: grid;
+.texto1{   
     grid-column: x0/x1;
     grid-row: y1/y2;
     color: white;
     background-color: blue;
     border: white 1px solid;
-    /* padding: 5px; */
+    padding: 5px;
 }
 .texto2{
-    display: grid;
+
     grid-column: x1/x2;
     grid-row: y1/y2;
     color: white;
     background-color: blue;
     border: white 1px solid;
+    padding: 5px;
 }
-
-
-/* porque no me aparece el contenedor azul???? */
 
 .contenedorVerde{
     display: grid;
@@ -74,48 +71,55 @@
     background-color: rgb(50, 248, 182);
     grid-template-columns: [x0]1fr;
     grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr ;
-
+    padding: 10px;
+    gap: 5px;
 }
 
 .menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x1;
     grid-row: y0 / y1;
     color: white;
     background-color: rgb(50, 248, 182);
     border: 1px black solid;
-    text-align: center;
+    
 }
 
 .menu1{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x1;
     grid-row: y1 / y2;
     color: white;
     background-color: black;
     border: 1px rgb(50, 248, 182) solid;
-    text-align: center;
+    
 }
 
 .menu2{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x1;
     grid-row: y2 / y3;
     color: white;
     background-color: black;
     border: 1px rgb(50, 248, 182) solid;
-    text-align: center;
 }
 
 .menu3{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x1;
     grid-row: y3 / y4;
     color: white;
     background-color: black;
     border: 1px rgb(50, 248, 182) solid;
-    text-align: center;
-}
+}  
 
 .contenedorMorado{
     display: grid;
@@ -125,10 +129,14 @@
     background-color: blueviolet;
     grid-template-columns: [x0]1fr [x1]1fr;
     grid-template-rows: [y0]1fr;
+    padding: 10px;
+    gap: 5px;
 }
 
 .footer{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x0 / x1;
     grid-row: y0 / y1;
     background-color: blueviolet;
@@ -137,7 +145,9 @@
 }
 
 .contacto{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: x1 / x2;
     grid-row: y0 / y1;
     background-color: blueviolet;
@@ -145,41 +155,5 @@
     border: 1px black solid;
 }
 
-/* .menus{
-    background-color: black;
-    color: white;
-    margin: 5px;
-    text-align: center;
-    padding-top: 15px;
-}
-
-/* como centrar el texto sin usar align items y justify content??? */
-/* tanto en menu y menus lo he hecho a ojo! */
-/* sino coinciden con las lineas nombradas lo tengo que hacer a ojo?? */
-
-/* .menu{
-    background-color: rgb(50, 248, 182);
-    border: 2px solid black;
-    margin: 5px;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.footer{
-    grid-column: x0 / x2;
-    grid-row: y7 / y8;
-    color: white;
-    background-color: blueviolet;
-    margin: 5px;
-}
-
-.contacto{
-    grid-column: x2 / x4;
-    grid-row: y7 / y8;
-    color: white;
-    background-color: blueviolet;
-    margin: 5px;
-} */
-
-/* porque no me hacen caso ni el footer ni contacto???? */
- /*  */
+/* en cada clase o se pone display flex o displey grid, los dos no puede ser.*/
+/* solo se pone el display grid en aquellas clases que se establezacan las filas y las columnas con grid template, en el resto no. */
